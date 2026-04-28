@@ -387,9 +387,9 @@ Defined in `api/app/config.py`:
 ```
 DATABASE_URL=postgresql+psycopg://veros:veros@localhost:5432/veros
 REDIS_URL=redis://localhost:6379/0
-LLM_PROVIDER=zai
+LLM_PROVIDER=gemini
+GEMINI_MODEL=gemini-3-flash-preview
 ZAI_MODEL=glm-4.6
-GEMINI_MODEL=gemini-2.5-flash
 EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
 DEMO_USER_ID=demo-user
 DEMO_USER_EMAIL=demo@veros.local
