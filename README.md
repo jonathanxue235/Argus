@@ -275,18 +275,13 @@ The returned payload is JSON-safe and can be sent directly from a Flask, FastAPI
 DATABASE_URL=postgresql+psycopg://veros:veros@localhost:5432/veros
 REDIS_URL=redis://localhost:6379/0
 
-# LLM provider: "zai" or "gemini"
+# LLM provider
 LLM_PROVIDER=gemini
 
-# Gemini default (OpenAI-compatible mode)
+# Gemini (OpenAI-compatible mode)
 GEMINI_API_KEY=<your key from aistudio.google.com>
 GEMINI_BASE_URL=https://generativelanguage.googleapis.com/v1beta/openai/
 GEMINI_MODEL=gemini-3-flash-preview
-
-# Z.AI alternative
-ZAI_API_KEY=<your Z.AI key>
-ZAI_BASE_URL=https://api.z.ai/api/paas/v4/
-ZAI_MODEL=glm-4.6
 
 # OpenReview credentials, only needed for auth-gated venues
 OPENREVIEW_USERNAME=
